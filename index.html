@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Juego del Ahorcado</title>
+
+</head>
+
+<body>
+
+    <div id="cuerpo">
+        <div class="inicio" id="inicio">
+            <h1>¿Listo para Jugar?</h1>
+            <button class="btn btn_iniciar_juego" id="iniciar_juego">Iniciar juego</button>
+            <button class="btn" id="agregar_palabra"><a href="#input_nueva_palabra">Agregar palabra</a></button>
+
+        </div>
+
+        <div class="ingresar_palabra">
+               
+            <textarea name="" class="text_input" id="input_nueva_palabra"
+            placeholder="Agregar nueva palabra"></textarea>
+            
+            <div id="x">
+                <button class="btn btn_main btn_ppal" id="btn_agregar_continuar">Agregar palabra y continuar</button>
+                <button class="btn btn_main" id="btn_cancelar"><a href="#inicio">Cancelar</a></button>
+            </div>
+        </div>
+
+        <div class="jugar">
+            <input type="" id="input_teclado" placeholder="Hora de jugar, Dijita una letra!">
+            <canvas id="ahorcado"></canvas>
+            <button class="btn btn_ppal" id="btn_nuevo_juego">Nueva Palabra</button>
+            <button class="btn" id="btn_desistir"><a href="#inicio">Desistir</a></button>
+        </div>
+    </div>
+
+    <div id="info_adicional">
+        <p>
+            Challenge Oracle-One:<a href="https://app.aluracursos.com/dashboard"> Hangman Alura</a>
+            <br>
+            Desarrollado por<a href="https://github.com/EARL2021/EARL2021"> Edwin Rodriguez</a>
+            <br>
+            Background imagen de @RikOostenbroek
+        </p>
+    </div>
+
+    <script type="text/javascript" src="diagrama.js"></script>
+
+</body>
+
+</html>

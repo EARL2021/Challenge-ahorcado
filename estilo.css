@@ -1,0 +1,115 @@
+body {
+    background-image: url("img22.jpeg");
+}
+
+h1 {
+    color: white;
+}
+
+
+#cuerpo {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inicio {
+    text-align: center;
+    height: 51vw;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    height: 3vw;
+    width: 12vw;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+    margin: 7px;
+}
+
+
+.btn:hover {
+    color: white;
+}
+
+.btn:hover {
+    background-color: crimson;
+    color: white;
+    border: none;
+}
+
+.btn:active {
+    background-color: rgb(67, 201, 187);
+    box-shadow: 0 4px rgb(189, 47, 47);
+    transform: translateY(4px);
+    color: black;
+    text-decoration: none;
+}
+
+
+@media (max-width: 600px){
+    .btn {
+        width: 150px;
+        height: 50px;
+    }
+
+    .inicio {
+        height: 230vw;
+    }
+}
+
+.text_input {
+    border-radius: 5px;
+}
+
+
+.ingresar_palabra {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 51vw;
+}
+
+
+@media (max-width: 600px) {
+    .ingresar_palabra {
+        height: 230vw;
+    }
+
+    #btn_agregar_continuar, #btn_cancelar {
+        width: 190px;
+        height: 50px;
+        margin-top: 30px;
+    }
+}
+
+
+.jugar {
+    text-align: center;
+    height: 38vw;
+}
+
+@media (max-width: 600px) {
+    .jugar {
+        height: 160vw;
+    }
+}
+
+
+.btn_main {
+    height: 51px;
+    width: 15vw;
+}
+
+#info_adicional {
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
